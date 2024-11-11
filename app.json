@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "underwiki",
+    "slug": "snack-4e1e87da-9463-46fe-9044-45fab809b35a",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.floraoff.snack4e1e87da946346fe904445fab809b35a"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "15ad0878-8da1-4eba-beef-11b54acbee85"
+      }
+    }
+  }
+}
