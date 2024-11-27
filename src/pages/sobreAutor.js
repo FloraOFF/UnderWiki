@@ -1,6 +1,7 @@
 import React from 'react';
-import { View, Button, Text, StyleSheet, Image, ScrollView } from 'react-native';
+import { View, Button, Text, StyleSheet, Image, ScrollView, TouchableOpacity } from 'react-native';
 import ButtonRoute from '../components/buttonsRotas';
+import { FontAwesome } from "@expo/vector-icons"; // Importa a biblioteca de ícones
 
 const sobreAutor = ({ navigation }) => (
   <ScrollView contentContainerStyle={styles.scrollViewContainer}>
@@ -15,6 +16,16 @@ const sobreAutor = ({ navigation }) => (
       <Text style={[styles.text, styles.centeredText]}>
         Howdy! Meu nome é Flora :3 {"\n\n"}
         Tenho 20 anos e sou formanda do curso de Sistemas para Internet pelo IFAC. Também sou técnica em Redes de Computadores e atuo como programadora web full-stack, formada pelo projeto Web Academy em parceria com a UFAC e Motorola.
+
+        Caso queira conhecer meu trabalho, aqui está meu GitHub e LinkedIn: 
+        <View style={styles.containerIcons}>
+          <TouchableOpacity onPress={() => Linking.openURL("https://github.com/FloraOFF/UnderWiki")}>
+            <FontAwesome name="github" size={40} color="#fff" style={styles.icon} />
+          </TouchableOpacity>
+          <TouchableOpacity onPress={() => Linking.openURL("https://www.linkedin.com/in/flora-frança-827030266/")}>
+            <FontAwesome name="linkedin" size={40} color="#0A66C2" style={styles.icon} />
+          </TouchableOpacity>
+        </View>
       </Text>
       <View style={styles.imageContainer}>
         <Image
@@ -71,6 +82,16 @@ const styles = StyleSheet.create({
     flexGrow: 1, 
     justifyContent: 'center', 
   },
+  icon: {
+    marginHorizontal: 10,
+  },
+  containerIcons: {
+    flexDirection: "row", // Muda para coluna para os itens ficarem empilhados
+    justifyContent: "space-between", // Coloca o espaço entre os itens
+    alignItems: "center", // Alinha os itens ao centro
+    marginVertical: 10,
+    height: 50
+  }
 });
 
 export default sobreAutor;
