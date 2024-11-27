@@ -8,7 +8,7 @@ const sobreAutor = ({ navigation }) => (
       <Text style={[styles.text, styles.title]}>SOBRE</Text>
       <View style={styles.imageContainer}>
         <Image
-          source={require('../../assets/images/fotoAutor.png')}
+          source={require('../../assets/images/autor-photoaidcom-cropped.png')}
           style={styles.image}
         />
       </View>
