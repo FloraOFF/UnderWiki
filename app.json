@@ -3,7 +3,7 @@
     "name": "underwiki",
     "slug": "snack-4e1e87da-9463-46fe-9044-45fab809b35a",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/ic_launcher_foreground_xxxhdpi.png",
     "userInterfaceStyle": "dark",
     "splash": {
