@@ -8,7 +8,7 @@ const sobreAutor = ({ navigation }) => (
       <Text style={[styles.text, styles.title]}>SOBRE</Text>
       <View style={styles.imageContainer}>
         <Image
-          source={require('../../assets/images/cropped_image.png')}
+          source={require('../../assets/images/fotoAutor.png')}
           style={styles.image}
         />
       </View>
@@ -16,6 +16,12 @@ const sobreAutor = ({ navigation }) => (
         Howdy! Meu nome é Flora :3 {"\n\n"}
         Tenho 20 anos e sou formanda do curso de Sistemas para Internet pelo IFAC. Também sou técnica em Redes de Computadores e atuo como programadora web full-stack, formada pelo projeto Web Academy em parceria com a UFAC e Motorola.
       </Text>
+      <View style={styles.imageContainer}>
+        <Image
+          source={require('../../assets/images/cropped_image.png')}
+          style={styles.image}
+        />
+      </View>
       <ButtonRoute
         navigation={navigation}
         id={0}
