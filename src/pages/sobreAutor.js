@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Button, Text, StyleSheet, Image, ScrollView, TouchableOpacity } from 'react-native';
+import { View, Linking, Button, Text, StyleSheet, Image, ScrollView, TouchableOpacity } from 'react-native';
 import ButtonRoute from '../components/buttonsRotas';
 import { FontAwesome } from "@expo/vector-icons"; // Importa a biblioteca de ícones
 
@@ -18,21 +18,21 @@ const sobreAutor = ({ navigation }) => (
         Tenho 20 anos e sou formanda do curso de Sistemas para Internet pelo IFAC. Também sou técnica em Redes de Computadores e atuo como programadora web full-stack, formada pelo projeto Web Academy em parceria com a UFAC e Motorola.
 
         Caso queira conhecer meu trabalho, aqui está meu GitHub e LinkedIn: 
+      </Text>
         <View style={styles.containerIcons}>
-          <TouchableOpacity onPress={() => Linking.openURL("https://github.com/FloraOFF/UnderWiki")}>
+          <TouchableOpacity onPress={() => Linking.openURL("https://github.com/FloraOFF/")}>
             <FontAwesome name="github" size={40} color="#fff" style={styles.icon} />
           </TouchableOpacity>
           <TouchableOpacity onPress={() => Linking.openURL("https://www.linkedin.com/in/flora-frança-827030266/")}>
             <FontAwesome name="linkedin" size={40} color="#0A66C2" style={styles.icon} />
           </TouchableOpacity>
         </View>
-      </Text>
-      <View style={styles.imageContainer}>
-        <Image
-          source={require('../../assets/images/cropped_image.png')}
-          style={styles.image}
-        />
-      </View>
+        <View style={styles.imageContainer}>
+          <Image
+            source={require('../../assets/images/cropped_image.png')}
+            style={styles.image}
+          />
+        </View>
       <ButtonRoute
         navigation={navigation}
         id={0}
