@@ -109,7 +109,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.floraoff.snack4e1e87da946346fe904445fab809b35a'
+    namespace "com.underwiki"
     defaultConfig {
         applicationId 'com.floraoff.snack4e1e87da946346fe904445fab809b35a'
         minSdkVersion rootProject.ext.minSdkVersion
