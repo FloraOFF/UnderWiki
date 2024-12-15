@@ -1,0 +1,19 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(../images/Golden\ dinner\,\ Moonshen\ Timojim.gif);
+    background-image: linear-gradient(transparent, transparent), url(../IMG/ShowBackground.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; /* Define a altura do body como 100% da altura da janela */
+}
