@@ -10,7 +10,7 @@ body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     background-image: url(../images/Golden\ dinner\,\ Moonshen\ Timojim.gif);
-    background-image: linear-gradient(transparent, transparent), url(../IMG/ShowBackground.webp);
+    background-image: linear-gradient(transparent, transparent), url(../images/Golden\ dinner\,\ Moonshen\ Timojim.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
