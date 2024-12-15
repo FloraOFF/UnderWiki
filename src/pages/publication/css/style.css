@@ -9,8 +9,8 @@ body, html {
 body {
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
-    background-image: url(../images/Golden\ dinner\,\ Moonshen\ Timojim.gif);
-    background-image: linear-gradient(transparent, transparent), url(../images/Golden\ dinner\,\ Moonshen\ Timojim.gif);
+    background-image: url(../../../../assets/images/Golden\ dinner\,\ Moonshen\ Timojim.gif);
+    background-image: linear-gradient(transparent, transparent), url(../../../../assets/images/Golden\ dinner\,\ Moonshen\ Timojim.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -20,7 +20,7 @@ body {
 
 @font-face {
     font-family: 'PressStart2P-Regular';
-    src: url('../fontes/PressStart2P-Regular.ttf');
+    src: url('../../../../assets/fontes/PressStart2P-Regular.ttf');
 }
 
 section {
