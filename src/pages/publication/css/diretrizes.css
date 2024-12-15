@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'PressStart2P-Regular';
     src: url('../../../../assets/fontes/PressStart2P-Regular.ttf');
 }
@@ -13,4 +13,17 @@ body {
 
 body strong {
     text-decoration: underline;
-}
+} */
+
+/* a[href*="https://app-privacy-policy-generator.nisrulz.com/"] {
+    background: linear-gradient(to right,
+      #C70039, 
+      #FF6B6B, 
+      #FFD700,
+      #00C851, 
+      #663399,
+      #1E90FF  
+    );
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+  }  */
