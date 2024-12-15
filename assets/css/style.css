@@ -17,3 +17,28 @@ body {
     background-attachment: fixed;
     height: 100vh; /* Define a altura do body como 100% da altura da janela */
 }
+
+@font-face {
+    font-family: 'PressStart2P-Regular';
+    src: url('../fontes/PressStart2P-Regular.ttf');
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.568);
+}
+
+h1, h3, a {
+    font-family: PressStart2P-Regular;
+    text-align: center;
+    color: aliceblue;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+}
