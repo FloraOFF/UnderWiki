@@ -42,3 +42,8 @@ a {
     display: flex;
     justify-content: center;
 }
+
+a#reference {
+    display: flex;
+    justify-content: flex-end;
+}
